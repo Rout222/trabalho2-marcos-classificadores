@@ -1,6 +1,7 @@
 import csv
+import sys
 from knn import KNN
-base     = "poker"
+base     = sys.argv[1]
 training = "./bases/" + base + "-training.csv"
 test	 = "./bases/" + base + "-test.csv"
 
